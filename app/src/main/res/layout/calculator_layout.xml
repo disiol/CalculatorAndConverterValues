@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    tools:context=".CalculatorActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"/>
+
+    <Button
+        android:id="@+id/button_divide"
+        android:text="@string/button_divide"
+       />
+
+    <Button
+        android:id="@+id/button_1"
+        android:text="@string/button_1" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:text="@string/button_2" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:text="@string/button_3" />
+
+    <Button
+        android:id="@+id/button_multiply"
+        android:text="@string/button_multiply"
+       />
+
+    <Button
+        android:id="@+id/button_4"
+        android:text="@string/button_4" />
+
+    <Button
+        android:id="@+id/button_5"
+        android:text="@string/button_5" />
+
+    <Button
+        android:id="@+id/button_6"
+        android:text="@string/button_6" />
+
+    <Button
+        android:id="@+id/button_minus"
+        android:text="@string/button_minus"
+       />
+
+    <Button
+        android:id="@+id/button_7"
+        android:text="@string/button_7" />
+
+    <Button
+        android:id="@+id/button_8"
+        android:text="@string/button_8" />
+
+    <Button
+        android:id="@+id/button_9"
+        android:text="@string/button_9" />
+
+    <Button
+        android:id="@+id/button_plus"
+        android:text="@string/button_plus"
+       />
+
+    <Button
+        android:id="@+id/button_0"
+        android:text="@string/button_0" />
+    <Button
+        android:id="@+id/button_00"
+        android:text="@string/button_00" />
+
+    <Button
+        android:id="@+id/button_point"
+        android:text="@string/button_point" />
+    <Button
+        android:id="@+id/button_equals"
+        android:text="@string/button_equals" />
+    <Button
+        android:id="@+id/button_Clear"
+        android:text="@string/button_Clear" />
+
+    <Button
+        android:id="@+id/button_del"
+        android:text="@string/button_del" />
+    <Button
+        android:id="@+id/button_interest"
+        android:text="@string/button_interest" />
+
+
+
+
+
+</GridLayout>
