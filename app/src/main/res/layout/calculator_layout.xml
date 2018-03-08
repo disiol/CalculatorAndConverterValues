@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <!-- записываетса водв юзера и вывод резултата-->
+    <!-- записываетса вод юзера и вывод резултата-->
     <TextView
         android:id="@+id/textViewInput"
         android:layout_width="match_parent"
