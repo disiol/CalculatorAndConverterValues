@@ -8,6 +8,7 @@
     <dimen name="layout_height_text_view_h">50dp</dimen>
     <dimen name="layout_width_buttons_h">50dp</dimen>
     <dimen name="layout_height_button_h">50dp</dimen>
-    <dimen name="dp">2dp</dimen>
+    <dimen name="dp">1dp</dimen>
+
 
 </resources>
