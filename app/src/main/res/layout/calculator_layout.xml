@@ -2,27 +2,45 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dp"
+    tools:context=".CalculatorActivity">
 
     <!-- записываетса история-->
     <TextView
         android:id="@+id/textViewHistory"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewInput"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/marginBottom" />
 
     <!-- записываетса вод юзера и вывод резултата-->
     <TextView
         android:id="@+id/textViewInput"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gridLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginLeft"
+        android:text="@string/button_0" />
 
     <GridLayout
+        android:id="@+id/gridLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginLeft"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
         android:columnCount="4"
-        android:orientation="horizontal"
-        tools:context=".CalculatorActivity">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/button_Clear"
