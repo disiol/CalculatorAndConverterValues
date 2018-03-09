@@ -8,7 +8,12 @@
     <dimen name="layout_height_text_view_h">50dp</dimen>
     <dimen name="layout_width_buttons_h">50dp</dimen>
     <dimen name="layout_height_button_h">50dp</dimen>
-    <dimen name="dp">1dp</dimen>
+    <dimen name="dp">2dp</dimen>
+    <dimen name="marginTextView">2dp</dimen>
+    <dimen name="textSize_h">50sp</dimen>
+    <dimen name="textSize_batons_h">20sp</dimen>
+    <dimen name="button_size_h">40dp</dimen>
+    <dimen name="layout_marginLeft">20dp</dimen>
 
 
 </resources>

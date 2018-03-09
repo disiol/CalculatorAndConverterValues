@@ -14,4 +14,7 @@
     <dimen name="layout_width_buttons_h">100dp</dimen>
     <dimen name="layout_height_button_h">100dp</dimen>
     <dimen name="dp">2dp</dimen>
+    <dimen name="marginTextView">2dp</dimen>
+    <dimen name="textSize">70sp</dimen>
+    <dimen name="button_size_h">40dp</dimen>
 </resources>

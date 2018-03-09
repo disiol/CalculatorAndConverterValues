@@ -9,4 +9,7 @@
     <dimen name="layout_height_button_h">50dp</dimen>
     <dimen name="layout_height_text_view">150dp</dimen>
     <dimen name="dp">2dp</dimen>
+    <dimen name="marginTextView">2dp</dimen>
+    <dimen name="textSize">50sp</dimen>
+    <dimen name="button_size_h">40dp</dimen>
 </resources>
