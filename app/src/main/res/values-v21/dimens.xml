@@ -2,8 +2,8 @@
 <resources>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="layout_width_buttons">70dp</dimen>
-    <dimen name="layout_height_button">70dp</dimen>
+    <dimen name="layout_width_buttons">75dp</dimen>
+    <dimen name="layout_height_button">75dp</dimen>
     <dimen name="layout_height_text_view_h">50dp</dimen>
     <dimen name="layout_width_buttons_h">50dp</dimen>
     <dimen name="layout_height_button_h">50dp</dimen>
