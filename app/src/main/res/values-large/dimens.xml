@@ -3,8 +3,8 @@
     <dimen name="layout_height_text_view">200dp</dimen>
     <dimen name="activity_horizontal_margin">50dp</dimen>
     <dimen name="activity_vertical_margin">50dp</dimen>
-    <dimen name="layout_width_buttons">120dp</dimen>
-    <dimen name="layout_height_button">120dp</dimen>
+    <dimen name="layout_width_buttons">200p</dimen>
+    <dimen name="layout_height_button">200dp</dimen>
     <dimen name="layout_height_text_view_h">60dp</dimen>
     <dimen name="layout_width_buttons_h">100dp</dimen>
     <dimen name="layout_height_button_h">100dp</dimen>
